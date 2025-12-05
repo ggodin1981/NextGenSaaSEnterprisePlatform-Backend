@@ -1,5 +1,3 @@
-# NextGen SaaS Enterprise API 
-
 # 🚀 NextGen SaaS Enterprise Platform — .NET 8 (Backend)
 
 A fully functional enterprise-grade SaaS starter platform built with modern .NET 8.

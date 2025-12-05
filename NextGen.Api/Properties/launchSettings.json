@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NextGen.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:18366;http://localhost:18367"
+    }
+  }
+}

@@ -180,35 +180,39 @@ In Swagger → Click Authorize → Enter:
 
 Bearer eyJhbGciOiJIUzI1NiIsInR5cCI...
 
+ ## 🗄️ SQL Server Configuration
 
-All /api/... endpoints become accessible.
+### Update `appsettings.json`:
 
-# 🗄 SQL Server Configuration
-```text
-Update appsettings.json:
-
+```json
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=NextGenSaaS;Trusted_Connection=True;TrustServerCertificate=True"
 }
 ```
 
-To use migrations:
+### To use migrations:
 
+```sh
 cd src/NextGen.Infrastructure
 dotnet ef migrations add Initial
 dotnet ef database update
+```
 
-# 🧪 Sample Users
-Username	Password	Role	Tenant
-admin	admin123	Admin	Default Tenant
-user	user123	User	Default Tenant
-# 🚀 Running the Project
+---
 
+## 🧪 Sample Users
+
+| Username | Password | Role  | Tenant         |
+|----------|-----------|--------|----------------|
+| admin    | admin123  | Admin | Default Tenant |
+| user     | user123   | User  | Default Tenant |
+
+```sh
 cd src
 dotnet restore
 dotnet build
 dotnet run --project NextGen.Api
-
+```
 
 Open Swagger UI:
 

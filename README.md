@@ -48,9 +48,9 @@ This is a complete backend designed to showcase high-level engineering skill for
 
    - sub
 
-    - role
+   - role
 
-        - tenant_id
+   - tenant_id
 
 - Swagger Authorize button enabled
 
@@ -118,6 +118,8 @@ This is a complete backend designed to showcase high-level engineering skill for
 
 # 🧱 Project Structure
 
+
+```text
 src/
  ├── NextGen.Domain
  │     ├── Entities
@@ -137,6 +139,7 @@ src/
        ├── Middleware
        ├── appsettings.json
        └── Swagger configuration
+```
 
 
 # 🔌 API Endpoints

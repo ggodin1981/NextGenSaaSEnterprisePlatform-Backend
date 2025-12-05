@@ -184,13 +184,13 @@ Bearer eyJhbGciOiJIUzI1NiIsInR5cCI...
 All /api/... endpoints become accessible.
 
 # 🗄 SQL Server Configuration
-
+```text
 Update appsettings.json:
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=NextGenSaaS;Trusted_Connection=True;TrustServerCertificate=True"
 }
-
+```
 
 To use migrations:
 
